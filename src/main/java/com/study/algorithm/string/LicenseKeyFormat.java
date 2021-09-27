@@ -21,6 +21,17 @@ public class LicenseKeyFormat {
      */
 
     public String solution(String licenseKey, int formatLength) {
-        return "";
+        licenseKey = licenseKey.replaceAll("-", "")
+                .trim()
+                .toUpperCase();
+
+        StringBuilder stringBuilder = new StringBuilder(licenseKey);
+
+        int length = stringBuilder.length();
+        for (int i = formatLength; i < length; i = i + formatLength) {
+            stringBuilder.insert(length - i, "-");
+        }
+
+        return stringBuilder.toString();
     }
 }
