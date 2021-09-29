@@ -6,7 +6,7 @@ import java.util.Set;
 public class JewelsAndStones {
     /**
      * 보석(jewels)과 돌(stones) 이 주어집니다.
-     * 보석을 이용해서 돌에 얼마나 맋은 보석이 포함되어 있는지 알고 싶습니다.
+     * 보석을 이용해서 돌에 얼마나 많은 보석이 포함되어 있는지 알고 싶습니다.
      *
      * 제한사항
      * 보석 문자열의 길이는 1 이상 입니다.
