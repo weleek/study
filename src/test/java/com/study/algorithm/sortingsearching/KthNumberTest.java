@@ -1,4 +1,4 @@
-package com.study.algorithm.sort;
+package com.study.algorithm.sortingsearching;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
